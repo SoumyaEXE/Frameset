@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+body{
+background-color: lightblue;
+text-align: center;
+font-family: Arial, Sans-serif;
+}
+.contact-form{
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0,0.1)
+display: inline-block;
+margin-left: 270px;
+text-align: center;
+width: 300px;
+}
+.contact-form label{
+display: block;
+margin: 10px 0 5px;
+}
+.contact-form input[type="submit"]{
+background-color: white;
+border: none;
+cursor: pointer;
+padding: 12px;
+}
+.contact-form input [type="submit"]
+ hover{
+ background-color: lightgreen
+ }
+ </style>
+ </head>
+ <body>
+ <h1>Contact Us</h1>
+ <div class="contact-form">
+ <form action="submit-form.php" method="post">
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name" required>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+ <label for="name">Adress:</label>
+ <input type="text" id="name" name="name" required>
+ <label for="message">Message:</label>
+ <text area id="message" placeholder="message" rows="4" required></textarea>
+ <input type="submit" value="submit">
+ </form>
+ </div>
+ </body>
+ </html>

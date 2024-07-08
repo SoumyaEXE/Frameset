@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Digital Clock</title>
+</head>
+<body.
+<script type="text/javascript'>
+function getclock()
+{
+var d=newdate();
+var nhour=d.getHours();
+var nmin=d.getMinutes();
+var nsec=d.getSeconds();
+var ap;
+if(nhour==0)
+{
+ap="AM";
+nhour=12;
+}
+else if
+(nhour<12)
